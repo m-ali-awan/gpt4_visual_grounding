@@ -43,6 +43,20 @@ pip install -r requirements.txt
 
 Use `demo.ipynb` to test this project. Open the Jupyter Notebook and follow the instructions provided.
 
+This cell will do all work for you for detecting `eyeglasses`. This approach can be extended to detect any other class as well, but we have to change prompts accordingly.
+
+```
+# Try to use an image where there is a human present, as we will draw BBox around 'person' class and annotate it with coordinates and rulers to help GPT-4o understand the spatial relationships in the image.
+
+input_image = "TestImages/man_with_glasses_1.png"
+num_of_iterations = 8
+result_image = await validator_iterative_detect_eyeglasses_using_vlm(OPENAI_API_KEY,
+                                                                      input_image, system_message,
+                                                                        yolov8n_model,num_of_iterations)
+create_iteration_video(input_image,num_of_iterations)
+
+```
+
 
 ### Limitations
 
