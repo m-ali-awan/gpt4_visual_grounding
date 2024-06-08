@@ -4,10 +4,11 @@ This project demonstrates the power of combining Visual-Grounding of large Visio
 ## Demo Video
 You can view a demo of the iterative process in the following video. For each test image, the video of iterations will be saved in `FinalResults`
 
-<video width="600" controls>
-    <source src="FinalResults/man_with_glasses_1/iterations_video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+
+
+https://github.com/m-ali-awan/gpt4_visual_grounding/assets/62832721/79d34209-d55d-48fb-8def-c3368faa582c
+
+
 
 ## Setup
 It is recommended to create a virtual environment and install the required dependencies from `requirements.txt`.
