@@ -1,6 +1,9 @@
 # gpt4_visual_grounding
 This project demonstrates the power of combining Visual-Grounding of large Vision-Language Models with an Agentic Flow to enhance localization abilities.
 
+- Check out full article [here](https://medium.com/@muhammad.3216awan/visual-grounding-and-self-checking-enhancing-gpt-4os-localization-ability-7a21f1a15428)
+
+
 ## Demo Video
 You can view a demo of the iterative process in the following video. For each test image, the video of iterations will be saved in `FinalResults`
 
